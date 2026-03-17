@@ -1,4 +1,4 @@
-# PoC: Cálculo Dinámico de KPIs en Tiempo Real (Agbar)
+# PoC: Cálculo Dinámico de KPIs en Tiempo Real 
 
 **Migración de arquitectura Batch (Snowflake) a Streaming (Confluent Cloud Flink)**
 
