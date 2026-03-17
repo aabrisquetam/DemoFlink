@@ -122,9 +122,7 @@ GROUP BY
 
 ---
 
-## 🚀 Cómo verificar los resultados en la Demo
-
-**⚠️ Importante:** Para la demostración con el cliente, **NO uses** `SELECT * FROM kpi_resultados_final` en el Workspace de Flink. La interfaz web realiza un *buffering* visual para no saturar el navegador y solo se actualiza cada 30-60 segundos. 
+## Cómo verificar los resultados en la Demo
 
 Para demostrar la velocidad y el rendimiento real del clúster (latencia < 50 ms):
 1. Navega al menú lateral izquierdo de Confluent Cloud y selecciona **Topics**.
