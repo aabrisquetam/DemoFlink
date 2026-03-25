@@ -89,6 +89,7 @@ Este `INSERT INTO` es el proceso *core* que se queda en estado `RUNNING`. Cruza 
 *Nota técnica: La función `MAX()` combinada con el `CASE WHEN` se utiliza como técnica estándar de SQL (Pivot) para transformar filas en columnas durante el `GROUP BY`, rescatando el valor exacto de la fila correspondiente al sensor analizado.*
 
 ```sql
+SET 'sql.state-ttl' = '1 h';
 INSERT INTO kpi_resultados_final
 SELECT 
     m.id_kpi AS cd_kpi,
